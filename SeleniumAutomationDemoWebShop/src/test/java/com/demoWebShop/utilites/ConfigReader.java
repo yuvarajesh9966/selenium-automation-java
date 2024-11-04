@@ -24,5 +24,13 @@ public class ConfigReader {
 //		System.out.println(pro.getProperty("mainUrl"));
 		return pro.getProperty("mainUrl");
 	}
+	
+	public String getEmail() {
+		return pro.getProperty("email");
+	}
+	
+	public String getPassword() {
+		return pro.getProperty("password");
+	}
 
 }
