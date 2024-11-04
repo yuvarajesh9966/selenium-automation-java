@@ -8,7 +8,7 @@ import com.demoWebShop.pages.LoginPage;
 
 public class LoginTest extends BaseTest {
 	
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1)
 	public void successfulLogin() throws Exception {
 		openUrl();
 		
