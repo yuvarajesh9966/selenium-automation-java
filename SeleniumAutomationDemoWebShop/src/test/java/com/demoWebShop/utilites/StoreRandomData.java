@@ -39,12 +39,13 @@ public class StoreRandomData {
 			}
 		}
 		
-		BufferedWriter writer = new BufferedWriter(new FileWriter(f));
+		BufferedWriter writer = new BufferedWriter(new FileWriter(f,true));
 		writer.write("Date and Time \t"+LocalDateTime.now()+"\n");
 		writer.write("First Name \t"+firstName+"\n");
 		writer.write("Last Name \t"+lastName+"\n");
 		writer.write("Email \t"+email+"\n");
 		writer.write("Password \t"+password+"\n");
+		writer.write("....................................\n");
 		
 		writer.flush();
 		writer.close();
