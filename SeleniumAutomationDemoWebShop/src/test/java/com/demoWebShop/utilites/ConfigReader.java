@@ -21,7 +21,6 @@ public class ConfigReader {
 	
 	
 	public String getUrl() {
-//		System.out.println(pro.getProperty("mainUrl"));
 		return pro.getProperty("mainUrl");
 	}
 	

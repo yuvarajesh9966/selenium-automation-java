@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="com.demoWebShop.tests.LoginTest">
+      <class name="com.demoWebShop.tests.RegisterTest">
         <methods>
+          <include name="register"/>
           <include name="tearDown"/>
-          <include name="failedLogin"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.demoWebShop.tests.LoginTest -->
+      </class> <!-- com.demoWebShop.tests.RegisterTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
