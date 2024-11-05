@@ -57,7 +57,6 @@ public class Listeners implements ITestListener {
 		
 		WebDriver driver = (WebDriver) result.getTestContext().getAttribute("WebDriver");
 		
-		System.out.println(driver);
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File srcFile = ts.getScreenshotAs(OutputType.FILE);
 		
