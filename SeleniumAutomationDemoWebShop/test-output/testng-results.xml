@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-05T13:38:53 IST" name="Suite" finished-at="2024-11-05T13:39:16 IST" duration-ms="23249">
+  <suite started-at="2025-01-13T09:44:51 IST" name="Suite" finished-at="2025-01-13T09:45:22 IST" duration-ms="31061">
     <groups>
     </groups>
-    <test started-at="2024-11-05T13:38:53 IST" name="Test" finished-at="2024-11-05T13:39:16 IST" duration-ms="23249">
+    <test started-at="2025-01-13T09:44:51 IST" name="Test" finished-at="2025-01-13T09:45:22 IST" duration-ms="31061">
       <class name="com.demoWebShop.tests.RegisterTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoWebShop.tests.RegisterTest@82de64a]" started-at="2024-11-05T13:38:53 IST" name="setup" finished-at="2024-11-05T13:38:55 IST" duration-ms="2168" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.demoWebShop.tests.RegisterTest@6caf0677]" started-at="2025-01-13T09:44:51 IST" name="setup" finished-at="2025-01-13T09:44:56 IST" duration-ms="5015" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="register()[pri:0, instance:com.demoWebShop.tests.RegisterTest@82de64a]" started-at="2024-11-05T13:38:55 IST" name="register" finished-at="2024-11-05T13:39:15 IST" duration-ms="19334" status="PASS">
+        <test-method signature="register()[pri:0, instance:com.demoWebShop.tests.RegisterTest@6caf0677]" started-at="2025-01-13T09:44:56 IST" name="register" finished-at="2025-01-13T09:45:21 IST" duration-ms="25375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoWebShop.tests.RegisterTest@82de64a]" started-at="2024-11-05T13:39:15 IST" name="tearDown" finished-at="2024-11-05T13:39:16 IST" duration-ms="1427" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demoWebShop.tests.RegisterTest@6caf0677]" started-at="2025-01-13T09:45:21 IST" name="tearDown" finished-at="2025-01-13T09:45:22 IST" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
