@@ -12,6 +12,7 @@
   <parameter name="browser" value="edge"></parameter>
     <classes>
       <class name="com.demoWebShop.tests.RegisterTest"/>
+       <class name="com.demoWebShop.tests.LoginTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
